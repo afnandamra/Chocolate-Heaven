@@ -4,29 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chocolate Heaven</title>
+    <script src="JS/app.js"></script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body style="background-color:#ffffcc">
-    <header style="background-color:#993300; color:#ffffcc">
+<body>
+    <header>
         <h1><img src="Images/2be5d40218.jpg" alt="Chocolate Image" height="50px" align="middle">Chocolate Heaven</h1>
         <nav>
-            <ul>
-                <li> <a href="https://bahazghayar.github.io/Chocolate-Heaven/" style="color:#ffffcc">Home</a> </li>
-                <li> <a href="https://afnandamra.github.io/Chocolate-Heaven/" style="color:#ffffcc">Our Products</a> </li>
-                <li> <a href="https://baraahbsharat.github.io/About-us/" style="color:#ffffcc">About us</a> </li>
+            <ul id="navigate">
+                <li class="navigation"> <a href="https://bahazghayar.github.io/Chocolate-Heaven/">Home</a> </li>
+                <li class="navigation"> <a href="https://afnandamra.github.io/Chocolate-Heaven/">Our Products</a> </li>
+                <li class="navigation"> <a href="https://baraahbsharat.github.io/About-us/">About us</a> </li>
             </ul>
         </nav>
     </header>
 
-    <main style="background-color:#ffffcc; color:#993300">
-
-        <script src="JS/chocolate.js"></script>
-        <script src="JS/greeting.js"></script>
+    <main>
 
         <h3>Our Products:</h3>
         <p>We provide the finest chocolate in the world, and we have a great selection to choose from.</p>
 
-        <button onclick="numberFunction()"> How many chocolates can you eat? </button>
-        <script src="JS/number.js"></script>
+        <button onclick="howMany()"> How many chocolates can you eat? </button>
 
         <ul>
             <li><img src="Images/BAR100MILK_S.jpg" alt="Milk Chocolate" height="100px" align="middle"> | Milk Chocolate Fine Bar.</li>
@@ -37,13 +35,12 @@
             <li><img src="Images/BAR100TOFFEE_T.jpg" alt="Toffee Chocolate" height="100px" align="middle"> | Toffee Chocolate Fine Bar.</li>
         </ul>
 
-        <button onclick="myFunction()"> What's your favorite chocolate? </button>
-        <script src="JS/color.js"></script>
+        <button onclick="chooseChoc()"> What's your favorite chocolate? </button>
 
     </main>
 
-    <footer style="background-color:#993300; color:#ffffcc">
-        <h5><a href="https://github.com/afnandamra" style="color:#ffffcc">Contact us</a></h5>
+    <footer>
+        <h5><a href="https://github.com/afnandamra">Contact us</a></h5>
         <h5> All Rights Reserved </h5>
     </footer>
 </body>
